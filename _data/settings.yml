@@ -11,7 +11,8 @@ description: Dreamsify is a custom products marketplace producing orders on dema
 # images wiil be fetched from the image/ folder
 intro:
   say-hello: Couldn't find it <strong><a>Anywhere?</a></strong>
-  bio:  'At Dreamsify we build upon <strong><a>your imagination</a></strong> to bring your ideas to life. We fabricate ideas proposed by you into <strong><a>premium products</a></strong> to make your life hassle-free and to transform your dreams into reality, delivered right at your doorstep.'
+  reply-hello: We'll <strong><a>make it for you.</a></strong>
+  bio:  'At Dreamsify we build upon <strong><a>your imagination</a></strong> to bring your ideas to life. We fabricate premium<strong><a> custom made products</a></strong> to transform your dreams into reality, delivered right at your doorstep.'
   slideshow:
     - img: intro/i1.png
       alt: 'library couch'
@@ -131,7 +132,7 @@ workflow:
       subhead: 
       desc: 'No need to wait anymore. <br />
       <div class="container text-center" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: left; align-items: center;">     
-          <a href="#OrderFormSection" class="btn-sm round-edge no-edge scroll_button" style="color:black; width: auto !important; padding: 10px 10px 10px 10px;">
+          <a href="#OrderFormSection" class="btn-sm round-edge no-edge scroll_button" style="color:black; width: auto !important; padding: 2px 10px 2px 10px;">
             <span style="font-size: 20px;">    Order Now!    </span>
           </a>
       </div>

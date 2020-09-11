@@ -17,6 +17,12 @@
       .carousel_title{
         font-size: 24px;
       }
+
+      .hover_off:hover{
+        border-color: #f6b141 !important;
+        color: #fff !important;
+        background-color: #f6b141 !important;
+      }
     }
 </style>
 <!-- begin c-hero -->
@@ -29,6 +35,7 @@
       <div class="content_h">
         <div class="hero__content">
           <h1 class="hero__title" style="margin-bottom: 10px; font-size: 38px;">{{ site.data.settings.intro.say-hello }}</h1>
+          <h2 class="hero__title" style="margin-bottom: 10px; font-size: 25px;">{{ site.data.settings.intro.reply-hello }}</h2>
           <p class="hero__subtitle" style="font-size: 18px; text-align: left;">{{ site.data.settings.intro.bio }}
             <div class="container text-center" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: left; align-items: center;">     
              <!--
@@ -47,12 +54,12 @@
             </h4>
           -->
           <div class="container text-center" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: left; align-items: center;">     
-            <a href="{{site.baseurl}}/#OrderFormSection" class="btn-sm round-edge no-edge" style=" width: auto !important; padding:10px 20px 10px 20px;">
-              <span style="font-size: 18px;">         Book Free* Consultation Now!         </span>
+            <a href="{{site.baseurl}}/#OrderFormSection" class="btn-sm round-edge no-edge hover_off" style=" width: auto !important; padding:10px 20px 10px 20px;">
+              <span style="font-size: 18px;">         Get Started!         </span>
             </a>
           </div>
         
-          <span class="text-muted" style="font-size: 13px; padding-left: 23px;"> *Limited Period Offer</span>
+          <span class="text-muted" style="font-size: 12px; padding-left: 10px; padding-top: 2px;"> *along with <strong><a>free consultation.</a></strong></span>
           
         </p>
         </div>
