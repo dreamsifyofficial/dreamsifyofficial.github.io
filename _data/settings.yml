@@ -103,9 +103,9 @@ contactus:
   intro: 'Shoot us an e-mail or give us a call. '
   contacts:
     - icon: map
-      details: 'A-9 vinayak city square <br />
-                7/9 S.P.Marg
-                Civil lines <br />
+      details: 'A-9 vinayak city square, <br />
+                7/9 S.P.Marg,
+                Civil lines, <br />
                 Prayagaraj'
     - icon: phone
       details: '+91-7367040374'
@@ -165,9 +165,9 @@ footer:
   contacts:
     - icon: map
       head: Find Us
-      details: 'A-9 vinayak city square <br />
-                7/9 S.P.Marg
-                Civil lines <br />
+      details: 'A-9 vinayak city square, <br />
+                7/9 S.P.Marg,
+                Civil lines, <br />
                 Prayagaraj'
     - icon: phone
       head: Call Us
