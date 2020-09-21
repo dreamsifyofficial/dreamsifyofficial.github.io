@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "5 REASONS TO BUY CUSTOM MADE PRODUCTS"
+title:  "5 Reasons To Buy Custom Made Products"
 date:   2020-09-10 00:00:00 +0530
 image:  postimg/20200910-Preksha-Post1.jpg
 tags:   Custom Products, Benefits, Dreamsify, Need, Reasons

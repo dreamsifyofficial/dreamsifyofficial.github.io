@@ -24,7 +24,7 @@ intro:
       cap: ''  
     - img: intro/i3.png
       alt: websites/apps
-      title: to Software and so on...
+      title: to Softwares and so on...
       cap: ''
 
 
@@ -55,7 +55,7 @@ our_team_subtext: 'We are a team of highly trained professionals comprising of I
 team:
   - name: Prakhar Kumar
     pic: team_members/01.jpg
-    position: co-founder and CEO
+    position: Co-founder and CEO
     social:
       - title: linkedin
         url: https://in.linkedin.com/in/prakhar-kumar-iitism
@@ -66,7 +66,7 @@ team:
 
   - name: Anjali R. Pahal
     pic: team_members/02.jpg
-    position: co-founder and CTO
+    position: Co-founder and CTO
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/anjali-rani
@@ -77,7 +77,7 @@ team:
 
   - name: Preksha Agarwal
     pic: team_members/03.jpg
-    position: co-founder and COO 
+    position: Co-founder and COO 
     social:
       - title: linkedin
         url: 'https://www.linkedin.com/in/preksha-agarwal-507764191'
@@ -104,12 +104,12 @@ contactus:
   intro: 'Shoot us an e-mail or give us a call. '
   contacts:
     - icon: map
-      details: 'A-9 vinayak city square, <br />
+      details: 'A-9 Vinayak City Square, <br />
                 7/9 S.P.Marg,
-                Civil lines, <br />
+                Civil Laines, <br />
                 Prayagaraj'
     - icon: phone
-      details: '+91-7367040374'
+      details: '+91-7007199426'
     - icon: envelope-open
       details: 'contact@dreamsify.com'
 
@@ -166,13 +166,13 @@ footer:
   contacts:
     - icon: map
       head: Find Us
-      details: 'A-9 vinayak city square, <br />
+      details: 'A-9 Vinayak City Square, <br />
                 7/9 S.P.Marg,
-                Civil lines, <br />
+                Civil Lines, <br />
                 Prayagaraj'
     - icon: phone
       head: Call Us
-      details: '+91-7367040374'
+      details: '+91-7007199426'
     - icon: envelope-open
       head: Mail Us
       details: 'contact@dreamsify.com'
@@ -245,4 +245,4 @@ formhold:
 
 #---------------------------------
 # Mobile verification pattern
-mob-pattern: \d{3}[\-]\d{3}[\-]\d{4}
+mob-pattern: \d{10}

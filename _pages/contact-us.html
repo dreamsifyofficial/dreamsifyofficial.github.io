@@ -63,7 +63,7 @@ permalink: /contact-us/
         <div class="col-sm-6">
                 <h3>Send A Message</h3>
 
-                <form id="contactForm_contact_us" class="contact-form">
+                <form id="contactForm_contact_us" class="contact-form" onsubmit="return submitContact();">
 
                     <input type="text" name="name" id="ct-name" placeholder="{{site.data.settings.formhold.name}}" required>
                     <input type="email" name="email" id="ct-email" data-validate="{required:true, 'validate-email':true}" placeholder="{{site.data.settings.formhold.mail-id}}" required>
@@ -71,15 +71,15 @@ permalink: /contact-us/
                     <textarea name="message" rows="5" id="ct-message" placeholder="{{site.data.settings.formhold.message}}" style="margin-bottom: 20px;"></textarea>
     
                     <div class="container" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: center;align-items: center;">
-                        <button type="button" title="Submit" class="btn-xl round-edge no-edge"  onclick=" submitContact();">
+                        <button type="submit" title="Submit" class="btn-xl round-edge no-edge">
                             <span>Submit <i class="fa fa-send ml-2"></i></span>  
                         </button>
                     </div>
-                    <div class="firebase_store_status" id="ct-fire-success">
+                    <div class="firebase_store_status" id="cnt-fire-success">
                         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                         <strong>Success!</strong> Your message has been sent.    
                     </div>
-                    <div class="firebase_store_status" id="ct-fire-fail" style="background:pink;">
+                    <div class="firebase_store_status" id="cnt-fire-fail" style="background:pink;">
                         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
                         <strong>Error!</strong> Please Try Again Later.    
                     </div>

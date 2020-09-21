@@ -56,7 +56,7 @@ input {
 
       <p class="w-100 text-center" style="border-bottom: 1px solid #dee2e6; padding-bottom: 16px;">Fill in the details and we will get in touch shortly.</p>
       
-      <form id="req_callback_form" class="contact-form">
+      <form id="req_callback_form" class="contact-form" onsubmit="return submitCallback();" >
 
       <div class="modal-body mx-3">
         <div class="md-form mb-2 mt-2">
@@ -69,7 +69,7 @@ input {
 
         <div class="modal-footer d-flex justify-content-center">
           <div class="container" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: center;align-items: center;">
-            <button type="button" title="Submit" class="btn-lg round-edge no-edge" onclick=" submitCallback();">
+            <button type="submit" title="Submit" class="btn-lg round-edge no-edge">
                 <span>Submit <i class="fa fa-send ml-2"></i></span>
             </button>
         </div>

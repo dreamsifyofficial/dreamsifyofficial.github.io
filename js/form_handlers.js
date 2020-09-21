@@ -71,8 +71,8 @@ function isNumberKey(evt){
   // function to push subs
   function submitContact(){
 
-    var SuccessBoxId = 'ct-fire-success';
-    var FailBoxId = 'ct-fire-fail';
+    var SuccessBoxId = 'cnt-fire-success';
+    var FailBoxId = 'cnt-fire-fail';
 
     // Get values 
     var email = getInputVal('ct-email');
@@ -93,7 +93,7 @@ function isNumberKey(evt){
       
       } else {
         // Data Saved Successfully
-        document.getElementById('contact-us').reset();
+        document.getElementById('contactForm_contact_us').reset();
         document.getElementById(SuccessBoxId).style.display = 'block';
       
       }
@@ -105,6 +105,7 @@ function isNumberKey(evt){
           document.getElementById(FailBoxId).style.display = 'none';
         },4000);
 
+        return false; // This is to disable the default form action
   }
 }
 
@@ -151,6 +152,7 @@ function isNumberKey(evt){
             document.getElementById(FailBoxId).style.display = 'none';
           },4000);
 
+          return false; // This is to disable the default form action
     }
 }
 
@@ -208,6 +210,8 @@ function submitCallback(){
 
     }
   });
+  
+  return false; // This is to disable the default form action
 }
 }
 
@@ -230,7 +234,9 @@ function submitCallback(){
     var phone = getInputVal('ord-phone');
     var msg = getInputVal('ord-message');
     var addr = getInputVal('ord-address');
+    var budget = getInputVal('ord-budget')
 
+    /*
     if (document.getElementById('budget1').checked) {
       budget = document.getElementById('budget1').value;
     }else if(document.getElementById('budget2').checked) {
@@ -240,6 +246,7 @@ function submitCallback(){
     }else if(document.getElementById('budget4').checked) {
       budget = document.getElementById('budget4').value;
     }
+    */
 
     var neworderRef = orderRef.push();
     neworderRef.set({
@@ -267,5 +274,6 @@ function submitCallback(){
           document.getElementById(FailBoxId).style.display = 'none';
         },4000);
 
+        return false; // This is to disable the default form action
   }
 }

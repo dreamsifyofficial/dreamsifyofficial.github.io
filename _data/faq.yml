@@ -8,7 +8,7 @@ faqdata:
     questions: 
       - id: 1
         ques: How long does it take to develop a product?
-        ans: 'Your product will be delivered at your doorstep after 1-2 weeks of finalisation of your design.Although, as each product is unique, the time to build your product may vary. The timeline looks like:<br />Design: As long as you take to finalise the design. Some customers might be ready with final design others might have just an idea, so one might iterate with Dreamsify for some time before finalising the design.<br />Production: Depending on the product and features required the production time can range from few days to few weeks. We will send the finished product''s photo, for you to approve before shipping. <br />Shipping:We ship as soon as the product gets ready. The customer chooses the shipping medium.'
+        ans: 'Your product will be delivered at your doorstep after 1-2 weeks of finalisation of your design.Although, as each product is unique, the time to build your product may vary. The timeline looks like:<br /><br />Design: As long as you take to finalise the design. Some customers might be ready with final design others might have just an idea, so one might iterate with Dreamsify for some time before finalising the design.<br /><br />Production: Depending on the product and features required the production time can range from few days to few weeks. We will send the finished product''s photo, for you to approve before shipping.<br /><br />Shipping: We ship as soon as the product gets ready. The customer chooses the shipping medium.'
 
       - id: 2
         ques: Does Dreamsify use one design for multiple customers?

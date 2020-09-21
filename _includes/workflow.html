@@ -14,6 +14,10 @@
         color: black !important;
     }
 
+    .grayplace:invalid{
+        color: gray;
+    }
+
 </style>
 
 <!--TIMELINE SCSS IS TEMORARILY OFF-->
@@ -153,15 +157,26 @@
             <h3 class="section-subheading text-muted pb-30" style="margin-bottom: 0;">Fill in the form and get in touch with our consultant.</h3>
     
             <!--Add Quote Form Here-->
-            <form id="order_Form" class="contact-form">
+            <form id="order_Form" class="contact-form" onsubmit=" return submitOrder();">
 
                 <input type="text" name="name" id="ord-name" placeholder="{{site.data.settings.formhold.name}}" required>
                 <input type="email" name="email" id="ord-email" data-validate="{required:true, 'validate-email':true}" placeholder="{{site.data.settings.formhold.mail-id}}" required>
                 <input type="tel" name="phone" id="ord-phone" placeholder="{{site.data.settings.formhold.phone}}" pattern="{{site.data.settings.mob-pattern}}" onkeypress="return isNumberKey(event)" required>
                 <input type="text" name="addr" id="ord-address" placeholder="{{site.data.settings.formhold.address}}">
+                
+                <select id="ord-budget" name="budget_range" class="grayplace mb-20" required>
+                    <option value="" disabled selected hidden> Choose Budget Range... </option>
+                    <option value="10k">Less than &#x20B9; 10K</option>
+                    <option value="10k-50k"> &#x20B9; 10K to &#x20B9; 50K </option>
+                    <option value="50k"> More than &#x20B9; 50K </option>
+                    <option value="NA"> Discuss Later </option>
+                </select>
+            
+                <!--
                 <span class="bordertxt">Budget Range</span>
                 <div class="radiogrp">
-                    <!-- name same then radio will in same group-->
+                    
+                    <!- - name same then radio will in same group- ->
                     <div style="align-content: center; align-self: center;">
                         <input type="radio" id="budget1" name="budget" value="10k">
                         <label for="age1"> Less than &#x20B9; 10K </label><br>
@@ -178,11 +193,14 @@
                         <input type="radio" id="budget4" name="budget" value="NA">
                         <label for="age1"> Discuss Later </label><br>
                     </div>
+
                 </div>
+                -->
+
                 <textarea name="message" rows="5" id="ord-message" placeholder="{{site.data.settings.formhold.message-order}}" style="margin-bottom: 20px;"></textarea>
 
                 <div class="container" style="padding-left: 0; padding-right: 0; margin-top: 20px; display: flex; justify-content: center;align-items: center;">
-                    <button type="button" title="Submit" class="btn-xl round-edge no-edge" onclick="submitOrder();">
+                    <button type="submit" title="Submit" class="btn-xl round-edge no-edge">
                         <span><i class="fa fa-shopping-cart mr-2"></i>Order</span>    
                     </button>
                 </div>
