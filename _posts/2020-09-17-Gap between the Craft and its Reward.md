@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "What craftsmen got for building Taj Mahal?"
+date:   2020-09-17 00:00:00 +0530
+image:  postimg/20200922-Anjali-Post2.jpg
+tags:   Custom Products, Benefits, Dreamsify,Craft
+author:
+  name: Anjali R. Pahal
+---
+
+
+<br/>
+Art and craft have been an integral part of communities since time immemorial. India is widely known for its rich, diverse heritage of crafts, which has been integral yarn of the colourful fabric of culture and religion. The craft of each community, each empire reflects the old times and its interesting stories. The craft of each state rumble of the influence of the ruling emperors and various cultures of gone days. There are countless incredible creations of talented craftsmen to gauge the impact of their art, Taj Mahal of Agra, Hawa Mahal of Jaipur, brass handicrafts and puppetry of Rajasthan etc. 
+<br/><br/>
+Craftsmanship is the quality of design and work created with passion and the utmost attention to the details. The refinedness of crafts come over time and with a lot of practice. It’s can be seen in the difference between a Timex watch and a Rolex watch. The key qualities of excellent craftsmen include their motivation to achieve mastery rather than attaining maximum profit, eagerness to sacrifice finances as they believe in the final product’s value and strive to make a balance between inclusion of history and tradition with innovation. They immerse themselves for hours in their work with immense concentration. Craftsmen are geniuses in fabricating unique, exquisite, durable and quality products. The crafts hence produced by these dedicated artisans are second-to-none in terms of quality and elegance. Craftsmen are closest to nature as they get motivations from nature and also get the raw products from the surroundings. We perceive magnificent craftsmanship in the attention to minute details, in product’s functionality and durability.
+<br/><br/>
+Despite these qualities and sheer passion of craftsmen, they are not given appropriate courtesy and gratuity. Their condition was no better in the past but over time it has only degraded. In May 1919, Mahatma Gandhiji expressed his angst on the predicament of craftsmen and the lack of focus on the indigenous industry in the country by pointing out that, “The mesmerism of markets has well-nigh completely gripped our imagination. The result is both obvious and inevitable. We are deliberately pushing our unique industrial arts and the hereditary craftsmanship to extinction”. Gandhiji also provides answers to the lingering obstruction by saying, “They merely require the recognition and encouragement. But if that is not immediately forthcoming it will be too late. We shall then be guilty of strangling them with our own hands”. Though the government, private, and non-profit organizations have played a major role in trying to revive the handicraft industry and sadly things have not changed much over the last century. However, times are changing and the change seems to be good for a reason. Corporate Social Responsibility (CSR) under the Companies Act, 2013 provides required respite to infuse the support for the revival of traditional arts and handicrafts in India.
+<br/><br/>
+But the state and central government still treat this sector as the sunset industry which is incompetent in this technology-driven modern world. Being deprived of the appropriate remuneration and respect, the craftsmen are looking for alternatives for their living in this fast-paced world. The young youth of society is also unwilling to carry forward the heritage cause of several obvious reasons. First, being familiar with their parents’ struggle to find markets and fair prices for their products, they are inclined to pursue other trades. Second, the school system today does not integrate lessons regarding the importance of crafts into the school curriculum, and instead, students are pushed towards white-collar office jobs, even if they are lower-paying. Third, there should be names of the craftsmen on their creations as it would inspire the craftsmen to continue creating the exquisite pieces and this courtesy will stimulate them to further excel. Finally, crafts are strongly associated with a family’s caste. In many cases, such as carpentry, artisans are ostracized for being from the lowest caste, which further dissuades rural youth from joining the family trade.
+
+<font size="0.5">
+<a href='https://www.freepik.com/photos/texture'>Texture photo created by drobotdean - www.freepik.com</a>
+</font>
