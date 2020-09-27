@@ -36,7 +36,13 @@ function isNumberKey(evt){
       var email = getInputVal('sub-EMAIL');
 
       var newSubsRef = subsRef.push();
+      var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = date+' '+time;
+
       newSubsRef.set({
+        dateTime:dateTime,
         email:email
       }, function(error){
         if(error){
@@ -80,8 +86,14 @@ function isNumberKey(evt){
     var phone = getInputVal('ct-phone');
     var msg = getInputVal('ct-message');
 
+    var today = new Date();
+    var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var dateTime = date+' '+time;
+
     var newcontactRef = contactRef.push();
     newcontactRef.set({
+      dateTime:dateTime,
       name: name,
       email:email,
       phone: phone,
@@ -127,8 +139,14 @@ function isNumberKey(evt){
       var phone = getInputVal('faq-phone');
       var msg = getInputVal('faq-message');
 
+      var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = date+' '+time;
+
       var newFAQRef = FAQRef.push();
       newFAQRef.set({
+        dateTime:dateTime,
         name: name,
         email:email,
         phone: phone,
@@ -248,8 +266,14 @@ function submitCallback(){
     }
     */
 
+   var today = new Date();
+   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+   var dateTime = date+' '+time;
+
     var neworderRef = orderRef.push();
     neworderRef.set({
+      dateTime:dateTime,
       name: name,
       email:email,
       phone: phone,
