@@ -75,7 +75,8 @@ function isNumberKey(evt){
   var contactRef = firebase.database().ref().child('contact-us');
 
   // function to push subs
-  function submitContact(){
+  function submitContact(e){
+    e.preventDefault();
 
     var SuccessBoxId = 'cnt-fire-success';
     var FailBoxId = 'cnt-fire-fail';
@@ -128,8 +129,9 @@ function isNumberKey(evt){
     var FAQRef = firebase.database().ref().child('faqForm');
 
     // function to push subs
-    function submitQuestion(){
-
+    function submitQuestion(e){
+      e.preventDefault();
+      
       var SuccessBoxId = 'faq-fire-success';
       var FailBoxId = 'faq-fire-fail';
 
@@ -183,7 +185,8 @@ var callBackRef = firebase.database().ref().child('callback-list');
 
 
 // function to push subs
-function submitCallback(){
+function submitCallback(e){
+  e.preventDefault();
 
   var SuccessBoxId = 'rcb-fire-success';
   var FailBoxId = 'rcb-fire-fail';
@@ -244,8 +247,8 @@ function submitCallback(){
   
 
   // function to push subs
-  function submitOrder(){
-
+  function submitOrder(e){
+    e.preventDefault();
     // Get values 
     var email = getInputVal('ord-email');
     var name = getInputVal('ord-name');

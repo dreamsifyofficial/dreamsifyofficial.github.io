@@ -7,8 +7,6 @@ tags:   Custom Products, Benefits, Dreamsify,Craft
 author:
   name: Anjali R. Pahal
 ---
-
-
 <br/>
 Art and craft have been an integral part of communities since time immemorial. India is widely known for its rich, diverse heritage of crafts, which has been integral yarn of the colourful fabric of culture and religion. The craft of each community, each empire reflects the old times and its interesting stories. The craft of each state rumble of the influence of the ruling emperors and various cultures of gone days. There are countless incredible creations of talented craftsmen to gauge the impact of their art, Taj Mahal of Agra, Hawa Mahal of Jaipur, brass handicrafts and puppetry of Rajasthan etc. 
 <br/><br/>
@@ -19,5 +17,5 @@ Despite these qualities and sheer passion of craftsmen, they are not given appro
 But the state and central government still treat this sector as the sunset industry which is incompetent in this technology-driven modern world. Being deprived of the appropriate remuneration and respect, the craftsmen are looking for alternatives for their living in this fast-paced world. The young youth of society is also unwilling to carry forward the heritage cause of several obvious reasons. First, being familiar with their parents’ struggle to find markets and fair prices for their products, they are inclined to pursue other trades. Second, the school system today does not integrate lessons regarding the importance of crafts into the school curriculum, and instead, students are pushed towards white-collar office jobs, even if they are lower-paying. Third, there should be names of the craftsmen on their creations as it would inspire the craftsmen to continue creating the exquisite pieces and this courtesy will stimulate them to further excel. Finally, crafts are strongly associated with a family’s caste. In many cases, such as carpentry, artisans are ostracized for being from the lowest caste, which further dissuades rural youth from joining the family trade.
 
 <font size="0.5">
-<a href='https://www.freepik.com/photos/texture'>Texture photo created by drobotdean - www.freepik.com</a>
+<a href='https://commons.wikimedia.org/wiki/File:Taj_Mahal_-_Agra_-_Uttar_Pradesh_-_0017.jpg'>Image Courtsey- Wikimedia</a>
 </font>
