@@ -2,6 +2,15 @@
 layout: default
 ---
 
+<head>
+  <!-- You can use Open Graph tags to customize link previews.
+  Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+  <meta property="og:url"           content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="{{ page.title | escape }}" />
+  <meta property="og:image"         content="{{site.baseurl}}/images/{{page.image}}" />
+</head>
+
 <div class="container">
   <div class="post-title-box">
     <div class="row">
